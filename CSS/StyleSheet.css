@@ -1,0 +1,62 @@
+﻿body {
+}
+
+#form1 {
+    margin-left: 40px;
+}
+
+.btnTopSelect {
+    vertical-align: central;
+    width: 150px;
+    height: 52px;
+    white-space: normal;
+    font-size: 13px;
+    font-weight: 900;
+    border-radius: 20px, 25px;
+    text-align: center;
+}
+
+    .btnTopSelect:matches(:hover) {
+        background-color: darkgray;
+    }
+
+.btnGrv {
+    vertical-align: central;
+    height: 26px;
+    width: 90px;
+    font-size: 13px;
+    font-weight: 900;
+    border-radius: 20px, 5px;
+    text-align: center;
+    vertical-align: auto;
+}
+
+.btnGrr:matches(:hover) {
+    background-color: darkgray;
+}
+
+.hiddencol {
+    display: none;
+}
+
+table.GridView header {
+    font-size: large;
+    font-weight: bold;
+}
+
+table.GridView th {   
+    text-decoration: none;
+    text-align: left;
+}
+
+table.GridView td {
+    min-width:fit-content;
+    text-align: center;
+    margin: 1px;
+}
+
+table.GridView tr:hover {
+    background-color: #00ADEF;
+    fill-opacity: 50;
+}
+
